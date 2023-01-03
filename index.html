@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<!-- BEGIN head -->
+
+<head>
+
+    <!-- Meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Slice Of Heaven is a fictional restaurant website. This is a responsive site built using HTML, CSS, JavaScript and Bootstrap">
+    <meta name="author" content="Design by Simone Solomon">
+    <title>Slice Of Heaven - America's Best Pizza, Burgers, Salads and Soups!</title>
+
+    <!-- Stylesheets -->
+    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="256x256"  href="src/assets/img/favicon/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="src/assets/img/favicon/android-chrome-192x192.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
+    <link rel="manifest" href="src/assets/img/site.webmanifest" />
+    <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#990100" />
+    <meta name="theme-color" content="#ffffff" />    
+
+</head>
+<!-- END head -->
+
+<!-- BEGIN body -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+    <!-- BEGIN  Loading Section -->  
+    <div class="loading-overlay">
+        <div class="spinner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- END Loading Section -->    
+
+    <!-- BEGIN body wrapper -->
+    <div class="body-wrapper">
+
+        <!-- Begin header-->
+        <header id="header">
+
+            <!-- BEGIN carousel -->
+            <div id="main-carousel" class="carousel slide" data-ride="carousel">
+                <div class="container pos_rel">
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#main-carousel" data-slide-to="1"></li>
+                        <li data-target="#main-carousel" data-slide-to="2"></li>
+                        <li data-target="#main-carousel" data-slide-to="3"></li>
+                        <li data-target="#main-carousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </a>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <!-- Carousel items   -->
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/placeholder-500x310.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Blissful Burgers</h4>
+                                    <p class="item_info">Our burgers are made with only the freshest and highest quality ingredients! Choose from an array of toppings to customize your burger just the way you like it. All of our burgers come with fries or onion rings to complete your meal. Come in and try one of our delicious burgers today!</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/placeholder-500x310.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Pizzas</h4>
+                                    <p class="item_info">Our pizzas are made with only the highest quality ingredients, and are baked to perfection in our wood-fired oven. Customize your pizza just the way you like it. Come in and try one of our delicious pizzas today!</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/placeholder-500x310.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Fresh Salads</h4>
+                                    <p class="item_info">Our salad menu offers a wide variety of fresh and flavorful options for every taste. From classic Caesar to more unique and specialty salads, there's something for everyone to enjoy. Our salads are prepared to order. We also offer a selection of dressings to complete your meal. Try one of our delicious salads today!</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/placeholder-500x310.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Hearty Soups</h4>
+                                    <p class="item_info">Our soup menu offers a variety of comforting options. Our soups are simmered to perfection. Choose from hearty and flavorful options, such as chicken noodle, minestrone, and black bean, to warm you up on a cold day. Come in and try one of our delicious soups today!</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/placeholder-500x310.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Ice Cold Drinks</h4>
+                                    <p class="item_info">Our drink menu features a variety of refreshing and satisfying options. Our drinks are made with only the freshest quality ingredients, and are prepared to order by our skilled mixologists. We also offer a selection of non-alcoholic drinks to complete your meal.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- END carousel -->
+
+            <!-- BEGIN navigation -->
+            <div class="navigation">
+
+                <div class="navbar-container" data-spy="affix" data-offset-top="400">
+                    <div class="container">
+
+                        <div class="navbar_top d-none d-sm-none d-md-block">
+                            <div class="top_addr">
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i> 1000 Delicious Drive, Yumms Town, NY 10001</span>
+                                <span><i class="fa fa-phone" aria-hidden="true"></i>(555) 555-1212</span>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 21:00</span>
+                                <div class="pull-right search-block">
+                                    <i class="fa fa-search" id="search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="navbar_search">
+                                <form method="post">
+                                    <input type="text" name="q" autocomplete="off" class="form-control pull-left" value="" placeholder="Search anything">
+                                    <button type="button" class="pull-right close" id="search_close"><i class="fa fa-close"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /.navbar_top -->
+
+                        <!-- BEGIN navbar -->
+                        <nav class="navbar">
+                            <div id="navbar_content">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="src/assets/img/logo.png" alt="logo" />
+                                    </a>
+                                    <a href="#cd-nav" class="cd-nav-trigger right_menu_icon">
+                                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar">
+                                    <div class="navbar-right">
+                                        <ul class="nav navbar-nav">
+                                            <li class="active"><a class="page-scroll" href="#header">Home</a></li>
+                                            <li><a class="page-scroll" href="#about_us">About</a></li>
+                                            <li><a class="page-scroll" href="#chef">Chef</a></li>
+                                            <li><a class="page-scroll" href="#menu">Menus</a></li>
+                                            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+                                            <li><a class="page-scroll" href="#reservation">Reservation</a></li>
+                                            <li><a class="page-scroll" href="#footer">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- END navbar -->
+                </div>
+                <!-- /.navbar-container -->
+            </div>
+            <!-- END navigation -->
+
+        </header>
+        <!-- End header -->
+
+        <!-- Begin Sections-->
+
+        <!--    About Us    -->
+        <div class="container section" id="about_us" data-aos="fade-up">
+            <div class="about_wrapper">
+                <div class="content">
+                    <h1 class="section-title title_sty1">About Us</h1>
+                    <p class="short">We are a family-owned restaurant serving up delicious meals for over 10 years. Our menu features a variety of dishes, from classic burgers and pizzas to unique and specialized options. We pride ourselves on using fresh, high-quality ingredients in all of our delicious dishes. We also offer vegetarian and vegan options.</p>
+                </div>
+                <div class="border_on">
+                    <img src="src/assets/img/placeholder-555x432.png" alt="sample" class="about_img" />
+                </div>
+            </div>
+        </div>
+
+        <!--    Menus   -->
+        <div class="container section" id="menu" data-aos="fade-up">
+            <div class="title-block">
+                <h1 class="section-title">Menus</h1>
+            </div>
+
+            <!--    Menus filter    -->
+            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
+                <li class="nav-item item active" role="presentation">
+                  <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burgers</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab" aria-controls="pizza" aria-selected="false">Pizza</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="salad-tab" data-toggle="tab" href="#salad" role="tab" aria-controls="salad" aria-selected="false">Salad</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="soup-tab" data-toggle="tab" href="#soup" role="tab" aria-controls="soup" aria-selected="false">Soup</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Drinks</a>
+                </li>
+            </ul>
+
+
+            <!--    Menus items     -->
+            <div class="tab-content" id="menu_items">
+                <div class="tab-pane fade in active" id="burger" role="tabpanel" aria-labelledby="burger-tab">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Beef Burger</div>
+                                        <div class="size">Size: Single</div>
+                                        <div class="short">Grilled to perfection and served on a soft bun with all your favorite toppings.</div>
+                                        <span class="filter_item_price">$12.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Turkey Burger</div>
+                                        <div class="size">Size: Single</div>
+                                        <div class="short">A leaner alternative to beef. Served on a bun with all your favorite toppings.</div>
+                                        <span class="filter_item_price">$13.50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Black Bean Burger</div>
+                                        <div class="size">Size: Single</div>
+                                        <div class="short">A vegetarian patty made from black beans, breadcrumbs, onions, and spices.</div>
+                                        <span class="filter_item_price">$9.27</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Salmon Burger</div>
+                                        <div class="size">Size: Single</div>
+                                        <div class="short">A patty made from ground salmon. Grilled and served on a bun with various toppings.</div>
+                                        <span class="filter_item_price">$18.90</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Pepperoni Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">Tomato sauce, mozzarella cheese and lots of pepperoni!</div>
+                                        <span class="filter_item_price">$8.25</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Hawaiian Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">Tomato sauce, ham,mozzarella cheese and pineapple chunks</div>
+                                        <span class="filter_item_price">$13.62</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Four Cheese Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">Tomato sauce, mozzarella cheese, gorgonzola cheese, parmesan cheese and fontina cheese</div>
+                                        <span class="filter_item_price">$15.25</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Margherita Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">Tomato sauce, mozzarella cheese and basil</div>
+                                        <span class="filter_item_price">$13.34</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">BBQ Chicken Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">BBQ sauce, grilled chicken, red onions and cilantro</div>
+                                        <span class="filter_item_price">$12.99</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Meat Lovers Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">tomato sauce, mozzarella cheese, pepperoni, sausage, ham and bacon</div>
+                                        <span class="filter_item_price">$11.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Artichoke and Spinach Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">olive oil, mozzarella cheese, artichoke hearts, spinach, garlic and parmesan cheese</div>
+                                        <span class="filter_item_price">$6.99</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Veggie Pizza</div>
+                                        <div class="size">Size: Medium</div>
+                                        <div class="short">tomato sauce, mozzarella cheese, bell peppers, mushrooms, onions and olives</div>
+                                        <span class="filter_item_price">$5.99</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>                 
+                </div>
+                <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Caesar Salad</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">Romaine lettuce, parmesan cheese, croutons and Caesar dressing</div>
+                                        <span class="filter_item_price">$18.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Garden Salad</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">Mixed greens, tomatoes, cucumbers, carrots, red onions and choice of dressing</div>
+                                        <span class="filter_item_price">$12.49</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Southwest Salad</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">Romaine lettuce, black beans, corn, cherry tomatoes, avocado, cheddar cheese and ranch dressing</div>
+                                        <span class="filter_item_price">$17.62</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Spinach Salad</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">baby spinach, boiled eggs, bacon, red onions, cranberries, almonds and honey mustard dressing</div>
+                                        <span class="filter_item_price">$9.99</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Chicken Noodle</div>
+                                        <div class="size">Size: Cup</div>
+                                        <div class="short">Tender chicken, egg noodles, carrots, celery, onions, and parsley in chicken broth.</div>
+                                        <span class="filter_item_price">$7.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Black Bean Soup</div>
+                                        <div class="size">Size: Cup</div>
+                                        <div class="short">Black beans, onions, bell peppers, celery, carrots, garlic, and a rich vegetable broth.</div>
+                                        <span class="filter_item_price">6.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Tomato Soup</div>
+                                        <div class="size">Size: Cup</div>
+                                        <div class="short">Tomatoes, onions, carrots, celery, and garlic in vegetable broth, finished with cream.</div>
+                                        <span class="filter_item_price">$6.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Minestrone Soup</div>
+                                        <div class="size">Size: Cup</div>
+                                        <div class="short">Tomatoes, onions, carrots, celery, zucchini, beans, and pasta in a flavorful vegetable broth.</div>
+                                        <span class="filter_item_price">$6.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Peach Iced Tea</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">A refreshing and fruity drink made with fresh brewed tea, cane sugar and peach puree.</div>
+                                        <span class="filter_item_price">$3.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Heavenly Lemonade</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">A sweet and tangy drink made with fresh squeezed lemons, cane sugar and water.</div>
+                                        <span class="filter_item_price">$3.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Strawberry Mojito</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">A refreshing blend of white rum, muddled strawberries, lime juice, mint, and club soda.</div>
+                                        <span class="filter_item_price">$12.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="src/assets/img/placeholder-900x575.png" class="block fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/placeholder-136x136.png" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Raspberry Collins</div>
+                                        <div class="size">Size: Regular</div>
+                                        <div class="short">A fruity and refreshing drink made with gin, raspberry liqueur, lemon juice, and club soda.</div>
+                                        <span class="filter_item_price">$11.95</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>                  
+                </div>
+
+                <div class="text-center">
+                    <!-- BEGIN pagination -->
+                    <ul class="pagination">
+                        <li class="active"><a href="javascript:;">1</a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                    </ul>
+                    <!-- END pagination -->
+                </div>                
+            </div>
+        </div>
+
+        <!--    Our Chef    -->
+
+        <div class="container section" id="chef" data-aos="fade-up">
+            <div class="title-block">
+                <h1 class="section-title">Our Chefs</h1>
+            </div>
+            <div id="chef-slider">
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/placeholder-354x484.png" alt="sample" /> 
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Chef Jake Thompson</h3>
+                        <div class="chef-social">
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/placeholder-354x484.png" alt="sample" /> 
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Chef Nick Dupont</h3>
+                        <div class="chef-social">
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/placeholder-354x484.png" alt="sample" /> 
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Chef Maria Rossi</h3>
+                        <div class="chef-social">
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--    Reservation    -->
+
+        <div class="fixed_layer section" id="reservation">
+            <div class="fixed_layer_padd container">
+                <div class="row">
+                    <div class="offset-lg-6 col-lg-6" data-aos="fade-down">
+                        <div class="reserv_box">
+                            <h1 class="section-title title_sty1">Online Reservations</h1>
+                            <p class="short">Thank you for choosing to dine with us. We look forward to serving you and hope to see you soon! </p>
+                            <form id="reserv_form" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form_pos">
+                                            <input type="text" name="name" autocomplete="off" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
+                                            <span class="form_icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form_pos">
+                                            <input type="email" name="email" autocomplete="off" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
+                                            <span class="form_icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group form_pos">
+                                            <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
+                                            <span class="form_icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group form_pos">
+                                            <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
+                                            <span class="form_icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group form_pos">
+                                            <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
+                                            <span class="form_icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="3" name="message" placeholder="Message" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"></textarea>
+                                </div>
+                                <input type="submit" name="send" value="book now" class="btn btn-block" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--    Gallery    -->
+        <div class="container section" id="gallery" data-aos="fade-up">
+            <div class="title-block">
+                <h1 class="section-title">Gallery</h1>
+            </div>
+            <div id="photo_gallery" class="list1">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> 
+                <div class="row" id="loadMore">
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item">
+                        <a href="src/assets/img/placeholder-1280x853.png" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/placeholder-285x277.png" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="load-dots">
+                    <div class="spinner">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn-view more_btn btn-load-more">
+                        <i class="fa fa-refresh"></i>
+                        <span>more images</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Sections -->
+
+        <!-- Start .scroll-up -->
+        <div class="scroll-up">
+            <div class="scroll-up__icon">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+        </div><!-- End /.scroll-up -->  
+
+        <!--  Begin Footer  -->
+        <footer id="footer">
+
+            <!--    Contact    -->
+
+            <!--    Google map, Social links    -->
+            <div class="section" id="contact">
+                <div id="map"></div> 
+                <div class="footer_content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <h4 class="footer_ttl footer_ttl_padd">about us</h4>
+                                <p class="footer_txt">Our cozy and inviting atmosphere is perfect for a casual dinner with friends or a date night out. We also have a full bar with an extensive selection of beers, wines, and cocktails. Join us for our daily specials and happy hour deals!</p>
+                            </div>
+                            <div class="col-md-6 col-lg-5">
+                                <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
+                                <div class="footer_border">
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Monday</div>
+                                        <div class="week_time text-right">Closed</div>
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Tuesday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">10 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">12 am</span>
+                                        </div>
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Wednesday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">10 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">12 am</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Thursday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">10 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">12 am</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Friday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">10 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">12 am</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Saturday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">7 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">1 am</span>
+                                        </div>
+                                    </div>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day">Sunday</div>
+                                        <div class="week_time">
+                                            <span class="week_time_start">7 am</span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_end">1 am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-3">
+                                <h4 class="footer_ttl footer_ttl_padd">contact us</h4>
+                                <div class="footer_border">
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-map-marker"></i>
+                                        <span>1000 Delicious Drive,<br>
+                                             Yumms Town, NY 10001</span>
+                                    </div>
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-phone"></i>
+                                        <span>(555) 555-1212</span>
+                                    </div>
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>info@sliceofheaven.net</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="copy_text">
+                                    Copyright © 2023 <a href="https://www.designbysimonesolomon.com" style="text-decoration:none;">Design by Simone Solomon</a><span>|</span> All Rights Reserved
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="social-links">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:;" title="" target="_blank">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:;" title="" target="_blank">
+                                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:;" title="" target="_blank">
+                                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:;" title="" target="_blank">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End Footer -->
+
+    </div>
+    <!-- END body-wrapper -->
+
+
+    <!-- START mobile right burger menu -->
+
+    <nav class="cd-nav-container right_menu" id="cd-nav">
+        <div class="header__open_menu">
+            <a href="index.html" class="rmenu_logo" title="yagmurmebel.az">
+                <img src="src/assets/img/logo.png" alt="logo" />
+            </a>
+        </div>
+        <div class="right_menu_search">
+            <form method="post">
+                <input type="text" name="q" autocomplete="off" class="form-control search_input" value="" placeholder="Search anything">
+                <button type="submit" class="search_icon"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul class="rmenu_list">
+            <li><a class="page-scroll" href="#header">Home</a></li>
+            <li><a class="page-scroll" href="#about_us">About</a></li>
+            <li><a class="page-scroll" href="#chef">Chef</a></li>
+            <li><a class="page-scroll" href="#menu">Menus</a></li>
+            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+            <li><a class="page-scroll" href="#reservation">Reservation</a></li>
+            <li><a class="page-scroll" href="#footer">Contact</a></li>
+        </ul>
+        <div class="right_menu_addr top_addr">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i> 1000 Delicious Drive, Yumms Town, NY 10001</span>
+            <span><i class="fa fa-phone" aria-hidden="true"></i> (555) 555- 1212</span>
+            <span><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 12:00</span>
+        </div>
+    </nav>
+
+    <div class="cd-overlay"></div>
+    <!-- /.cd-overlay -->
+         
+
+    <!-- END mobile right burger menu -->
+
+    <!-- JavaScript -->
+    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="src/assets/js/bootstrap.min.js"></script>
+    <script src="src/assets/js/jquery.mousewheel.min.js"></script>
+    <script src="src/assets/js/jquery.easing.min.js"></script>
+    <script src="src/assets/js/scrolling-nav.js"></script>
+    <script src="src/assets/js/aos.js"></script>
+    <script src="src/assets/js/slick.min.js"></script>
+    <script src="src/assets/js/jquery.touchSwipe.min.js"></script>
+    <script src="src/assets/js/moment.js"></script>
+    <script src="src/assets/js/bootstrap-datepicker.js"></script>
+    <script src="src/assets/js/bootstrap-datetimepicker.js"></script>
+    <script src="src/assets/js/jquery.fancybox.js"></script>
+    <script src="src/assets/js/loadMoreResults.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=pdct.1.1.20181030T175834Z.133bc6bb41576943.2897484581a2a12fea17740a34279c270c29ac48&lang=en_US"></script>
+    <script src="src/assets/js/main.js"></script>
+
+</body>
+
+</html> 
